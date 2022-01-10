@@ -63,88 +63,88 @@ Bomm, vou criar meu primeiro projeto!
 ## Aí dar problema de junção 
 ## Aí o próprio programador tem que resolver
 # Algoritmo de encriptação 
-Embaralha seu código -A saída desses dados dera um conjunto de caracteres de 40 dígitos-Para poder identificar os arquivos de uma forma mais fácil 
+# Embaralha seu código 
+## -A saída desses dados dera um conjunto de caracteres de 40 dígitos-Para poder identificar os arquivos de uma forma mais fácil 
 
-para abrir o sha1 do arquivo 
-openssl sha1 texto.txt
-.......Objetos internos do git.....
-1-.......Blobs .....
-2-.......Trees ......
-3-.......Commits..... 
-Blob tem o tipo, tamanho,a barra e o conteúdo -nao guarda o nome
-Trees armazenam os blobs-grau hierárquico ,guarda o nome 
-Podem aportar sobre blobs ou outras árvores -trees
-Commit
-Junta tudo
-E aponta para essas todas sub divisões 
-Tem um tempo de criação
-Possuem sha1
-Ele é único para cada pessoa.
+* Para abrir o sha1 do arquivo 
+* openssl sha1 texto.txt
+* .......Objetos internos do git.....
+* 1-.......Blobs .....
+* 2-.......Trees ......
+* 3-.......Commits..... 
+## Blob tem o tipo, tamanho,a barra e o conteúdo -nao guarda o nome
+### Trees armazenam os blobs-grau hierárquico ,guarda o nome 
+*Podem aportar sobre blobs ou outras árvores -trees
+* Commit
+* Junta tudo
+* E aponta para essas todas sub divisões 
+* Tem um tempo de criação
+* Possuem sha1
+* Ele é único para cada pessoa.
 # ..............Chaves SSH & tokens..........
-Chave ssh
-Chave de segurança 
-Sequência 
-Ssh-keygen-t ed 25519 -c e-mail
-Gera duas chaves
-buscando a chave
-cd/c/Users/Nome/.ssh/
-ls
-Aí gera duas chaves
-Exemplo:
-id_ed25519 id_ed25519.pub
-Iniciar o ssh
-$ eval $(ssh-agent -s)
-$ ssh-add id_ed25519 
+* Chave ssh 🔑 
+* Chave de segurança 
+* Sequência 
+* Ssh-keygen-t ed 25519 -c e-mail
+* Gera duas chaves
+* buscando a chave
+* cd/c/Users/Nome/.ssh/
+* ls
+# Aí gera duas chaves
+## Exemplo:
+* id_ed25519 id_ed25519.pub
+# Iniciar o ssh
+### $ eval $(ssh-agent -s)
+### $ ssh-add id_ed25519 
 
 # Primeiros comandos com o git
-git init
-git add
-git commit 
+* git init
+* git add
+* git commit 
 
 # Criando um repositório 
-Git bash já adianta nosso trabalho 
-$ ls lista as pastas dentro do diretório 
-Aí já entra
-$ cd worspace/
-Já está dentro da pasta worspace 
-$medir livro-receita
-Entrando
-$ cd livro-receitas/
-Iniciando o git
-$git-init
-Inicializa um repositório git 
-$ ls não adianta nesse caso pois é oculto
-Para isso
-$ls -a
-Agora entrando na pasta git
-$ cd.git/
-Listando $ls
-Aí aparece
-Para voltar um comando lembrando 
-$ cd..
-Pronto!
-Git vai pedir um user name, email e senha
-$ git config--global user. email "email"
-$ git config -- global user.name gablops 
+* Git bash já adianta nosso trabalho 
+* $ ls lista as pastas dentro do diretório 
+## Aí já entra
+* $ cd worspace/
+* Já está dentro da pasta worspace 
+* $medir livro-receita
+## Entrando
+* $ cd livro-receitas/
+* Iniciando o git
+* $git-init
+*Inicializa um repositório git 
+## $ ls não adianta nesse caso pois é oculto
+* Para isso
+* $ls -a
+* Agora entrando na pasta git
+* $ cd.git/
+## Listando $ls
+### Aí aparece
+* Para voltar um comando lembrando 
+* $ cd..
+* Pronto!
+* Git vai pedir um user name, email e senha
+* $ git config--global user. email "email"
+* $ git config -- global user.name gablops 
 
-Markdown
-Pasta.md
-Ver o que é Typora 
-COMMIT
-$ git add * 
+# Markdown
+* Pasta.md
+* Ver o que é Typora 
+* COMMIT
+* $ git add * 
 
-$ git commit -"commit inicial"
+* $ git commit -"commit inicial"
 
 
-Ciclo de vida dos arquivos 
+# Ciclo de vida dos arquivos 
 
-git init cria um repositório 
-Staged preparação de arquivos de comandos 
-Ultracked arquivos jovens que não temos ciência deles 
-Unmodified muda para modified se alteramos
-git status mostra o status do commit
-mv move o arquivo  um repositório no outro
-$ mv arquivo.md ./ pasta/
-Para mudar os arquivos para  staged fazemos
-$ git add nome.md pasta/
+* git init cria um repositório 
+* Staged preparação de arquivos de comandos 
+* Ultracked arquivos jovens que não temos ciência deles 
+* Unmodified muda para modified se alteramos
+* git status mostra o status do commit
+* mv move o arquivo um repositório no outro
+* $ mv arquivo.md ./ pasta/
+* Para mudar os arquivos para staged fazemos: $ git add nome.md pasta/
 
