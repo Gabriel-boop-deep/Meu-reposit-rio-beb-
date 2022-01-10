@@ -1,4 +1,5 @@
 # Meu-reposit-rio-beb-
 Primeiro passo de um bit mas um grande passo para o dev
-printf("oioi")
+Bomm, vou criar meu primeiro projeto!
+
 
